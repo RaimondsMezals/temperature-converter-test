@@ -2,28 +2,28 @@ package com.qa.temp;
 
 public class TemperatureConverter {
 	
-	public float convertFahrenheitToCelsius(int fahrenheit) {
-        return (5 / 9) * (fahrenheit - 32);
+	public float convertFahrenheitToCelsius(float fahrenheit) {
+        return (5f / 9f) * (fahrenheit - 32f);
     }
 
-    public float convertCelsiusToFahrenheit(int celsius) {
-        return (9 / 5) * (celsius) + 32;
+    public float convertCelsiusToFahrenheit(float celsius) {
+        return (9f / 5f) * (celsius) + 32f;
     }
 
-    public float convertKelvinToCelsius(int kelvin) {
-        return (kelvin - 273);
+    public float convertKelvinToCelsius(float kelvin) {
+        return (kelvin - 273f);
     }
 
-    public float convertCelsiusToKelvin(int celsius) {
-        return (celsius + 273);
+    public float convertCelsiusToKelvin(float celsius) {
+        return (celsius + 273f);
     }
 
-    public float convertKelvinToFahrenheit(int kelvin) {
-        return (9 / 5) * (kelvin - 273) + 32;
+    public float convertKelvinToFahrenheit(float kelvin) {
+        return (9f / 5f) * (kelvin - 273f) + 32f;
     }
 
-    public float convertFahrenheitToKelvin(int fahrenheit) {
-        return (5 / 9) * (fahrenheit - 32) + 273;
+    public float convertFahrenheitToKelvin(float fahrenheit) {
+        return (5f / 9f) * (fahrenheit - 32f) + 273f;
     }
 	
 }

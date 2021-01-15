@@ -31,7 +31,7 @@ public class TestTemperatureConverter {
 
 		TemperatureConverter tc = new TemperatureConverter();
 		
-		float result = tc.convertFahrenheitToCelsius(50);
+		float result = tc.convertFahrenheitToCelsius(50f);
 
 		System.out.println(result);
 
@@ -44,7 +44,7 @@ public class TestTemperatureConverter {
 		
 		TemperatureConverter tc = new TemperatureConverter();
 		
-		float result = tc.convertCelsiusToFahrenheit(10);
+		float result = tc.convertCelsiusToFahrenheit(10f);
 
 		System.out.println(result);
 		
@@ -57,7 +57,7 @@ public class TestTemperatureConverter {
 		
 		TemperatureConverter tc = new TemperatureConverter();
 		
-		float result = tc.convertKelvinToCelsius(300);
+		float result = tc.convertKelvinToCelsius(300f);
 
 		System.out.println(result);
 		
@@ -70,7 +70,7 @@ public class TestTemperatureConverter {
 		
 		TemperatureConverter tc = new TemperatureConverter();
 		
-		float result = tc.convertCelsiusToKelvin(27);
+		float result = tc.convertCelsiusToKelvin(27f);
 
 		System.out.println(result);
 		
@@ -83,7 +83,7 @@ public class TestTemperatureConverter {
 		
 		TemperatureConverter tc = new TemperatureConverter();
 		
-		float result = tc.convertKelvinToFahrenheit(300);
+		float result = tc.convertKelvinToFahrenheit(300f);
 
 		System.out.println(result);
 		
@@ -96,7 +96,7 @@ public class TestTemperatureConverter {
 		
 		TemperatureConverter tc = new TemperatureConverter();
 		
-		float result = tc.convertFahrenheitToKelvin(50);
+		float result = tc.convertFahrenheitToKelvin(50f);
 
 		System.out.println(result);
 		
